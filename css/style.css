@@ -5,3 +5,13 @@ h1 {
 body {
     background-color: darkgreen;
 }
+
+section {
+    width: 100;
+    height: 100px;
+    background-image: repeating-radial-gradient(blue, yellow);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
